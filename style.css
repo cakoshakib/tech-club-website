@@ -100,9 +100,15 @@ p {
     top:10%;
     left:50%;
     transform:translate(-50%,-40%);
+    
 }
+.s3 h1, .s5 h1 {
+    text-shadow: -5px 3px 2px #333333;
+}
+.s2 h1, .s4 h1 {
+    text-shadow: -2px 2px 1px #979797;
 
-
+}
 .s1 {
     text-align:center;
 }
@@ -139,11 +145,12 @@ p {
     position:absolute;
     text-align:center;
     border-radius:20px;
+    box-shadow: 0px 8px 8px 0px #464444;
 
 }
 
 .board:hover {
-    box-shadow: 0px 8px 8px 0px #464444;
+    box-shadow: 0px 10px 10px 0px #464444;
 
 }
 .b1, .b2 {

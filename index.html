@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="fullpage.min.css">
     <title>Tech Club</title>
     <script type="text/javascript">var submitted=false;</script> <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='index.html';}"></iframe>
+    <link rel="stylesheet" href="Animate.css">
 
 </head>
 <body>
@@ -22,7 +23,7 @@
         </section>
         <section class = "section s2 fp-auto-height-responsive">
             <h1>Meets</h1>
-            <div id = "nextMeet">
+            <div id = "nextMeet" class="isAnimated">
                 <ul id = "meetDates">
                     <li class = "met">Sept 17</li>
                     <li class = "met">Oct 1</li>
@@ -47,17 +48,17 @@
         </section>
         <section class = "section s3">
             <h1>About</h1>
-            <div id ="description1">
+            <div class = "isAnimated" id ="description1">
                 <img src="images/backend.png" alt="backend" class="logos l1">
                 <h2 id = "dHead">Backend Team</h2>
                 <p>Math-minded? Interested in databases? Familiar with coding? Backend is the place for you! Backends main focus is creating the behind-the-scenes of the projects we'll be making. Requires Python, Flask, and mySQL</p>
             </div>
-            <div id ="description2">
+            <div class = "isAnimated"id ="description2">
                 <img src="images/frontend.png" alt="frontend" class="logos l2">
                 <h2 id = "dHead">Frontend Team</h2>
                 <p>Do you enjoy making things look beautiful? Are you awed by a creative design on a website? Are you familiar with web dev? Frontend focuses on the appearance of the projects we will be creating! Requires HTML, CSS, and JavaScript</p>
             </div>  
-            <div id ="description3">
+            <div class = "isAnimated"id ="description3">
                     <img src="images/design.png" alt="design" class="logos l3">
                     <h2 id = "dHead">Design Team</h2>
                     <p>Are you an artist? Familiar with design software? Not too interested in doing the nitty gritty coding? Design is the place for you. The main focus of design is providing the front-end with a design to follow. Uses various software including AdobeXD (its free!)</p>
@@ -66,27 +67,27 @@
         </section>
         <section class = "section s4 fp-auto-height-responsive">
             <h1>Board</h1>
-            <div class = "board b1">
+            <div class = "board b1 isAnimated" >
                 <h2>Co-Presdent</h2>
                 <img src="https://ca.slack-edge.com/TN1H1KD7U-UNG69V5PZ-36bfd6553bb3-512" alt="Dakshal">
                 <h4>Dakshal Panicker</h3>
             </div>
-            <div class = "board b2">
+            <div class = "board b2 isAnimated ">
                 <h2>Co-President</h2>
                 <img src="https://ca.slack-edge.com/TN1H1KD7U-UN2NZLWJW-52525bb5d2ff-512" alt="Varun">
                 <h4>Varun Chari</h3>
             </div>
-            <div class = "board b3">
+            <div class = "board b3 isAnimated">
                 <h2>Treasurer</h2>
                 <img src="https://ca.slack-edge.com/TN1H1KD7U-UNLNMHSTS-g4e795184be1-512" alt="Shrey">
                 <h4>Shrey Jain</h4>
             </div>
-            <div class = "board b4">
+            <div class = "board b4 isAnimated">
                 <h2>Web Master</h2>
                 <img src="https://ca.slack-edge.com/TN1H1KD7U-UNFFZFYRE-0fe6a0a9ed23-512" alt="Shakib">
                 <h4>Shakib Rahman</h4>
             </div>
-            <div class = "board b5">
+            <div class = "board b5 isAnimated">
                 <h2>Secretary</h2>
                 <img src="https://ca.slack-edge.com/TN1H1KD7U-UN947NJ01-1373f1f87807-512" alt="Cavin">
                 <h4>Cavin Saravanan</h4>
@@ -126,6 +127,8 @@
 
     </div>
     
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src = "fullpage.min.js"></script>
     <script src = "app.js"> </script>
 </body>
