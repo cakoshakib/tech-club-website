@@ -283,12 +283,39 @@ a {
         display:none;
     }
     .s3 p {
-        font-size:75%;
+        font-size:80%;
+    }
+    .s3 h2 {
+        font-size:100%;
+    }
+    #description1{
+        left: 10%;
+    }
+    #description3 {
+        left:90%;
+    }
+    #description1, #description2, #description3 {
+        width:18%;
     }
     .board {
         width:8em;
         padding-left:2%;
         padding-right:2%;
+    }
+    .board h2, .board h4 {
+        font-size:80%;
+    }
+    .b1 {
+        left:20%;
+    }
+    .b2 {
+        left:80%;
+    }
+    .b3 {
+        left:10%;
+    }
+    .b5 {
+        left:90%;
     }
     #cContainer {
         width:80%;
