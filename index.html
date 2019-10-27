@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/techlogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fullpage.min.css">
+    <title>Tech Club</title>
+    <script type="text/javascript">var submitted=false;</script> <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='index.html';}"></iframe>
+
+</head>
+<body>
+    <div id = "fullpage">
+        <section class = "section s1 fp-auto-height-responsive">
+            <div id = "img">
+                <div id = "blackLayer"></div>
+            </div>
+            <h1>Tech Club</h1>
+
+        </section>
+        <section class = "section s2 fp-auto-height-responsive">
+            <h1>Meets</h1>
+            <div id = "nextMeet">
+                <ul id = "meetDates">
+                    <li class = "met">Sept 17</li>
+                    <li class = "met">Oct 1</li>
+                    <li class = "met">Oct 15</li>
+                    <li class = "active">Oct 29</li>
+                    <li>Nov 12</li>
+                    <li>Nov 26</li>
+                    <li>Dec 17</li>
+                    <li>Jan 7</li>
+                    <li>Jan 21</li>
+                    <li>Feb 4</li>
+                    <li>Feb 18</li>
+                    <li>Mar 3</li>
+                    <li>Mar 17</li>
+                    <li>Mar 31</li>
+                    <li>Apr 21</li>
+                    <li>May 5</li>
+                    <li>May 19</li>
+                    <li>Jun 9</li>
+                </ul>
+            </div>
+        </section>
+        <section class = "section s3">
+            <h1>About</h1>
+            <div id ="description1">
+                <img src="images/backend.png" alt="backend" class="logos l1">
+                <h2 id = "dHead">Backend Team</h2>
+                <p>Math-minded? Interested in databases? Familiar with coding? Backend is the place for you! Backends main focus is creating the behind-the-scenes of the projects we'll be making. Requires Python, Flask, and mySQL</p>
+            </div>
+            <div id ="description2">
+                <img src="images/frontend.png" alt="frontend" class="logos l2">
+                <h2 id = "dHead">Frontend Team</h2>
+                <p>Do you enjoy making things look beautiful? Are you awed by a creative design on a website? Are you familiar with web dev? Frontend focuses on the appearance of the projects we will be creating! Requires HTML, CSS, and JavaScript</p>
+            </div>  
+            <div id ="description3">
+                    <img src="images/design.png" alt="design" class="logos l3">
+                    <h2 id = "dHead">Design Team</h2>
+                    <p>Are you an artist? Familiar with design software? Not too interested in doing the nitty gritty coding? Design is the place for you. The main focus of design is providing the front-end with a design to follow. Uses various software including AdobeXD (its free!)</p>
+            </div>
+           
+        </section>
+        <section class = "section s4 fp-auto-height-responsive">
+            <h1>Board</h1>
+            <div class = "board b1">
+                <h2>Co-Presdent</h2>
+                <img src="https://ca.slack-edge.com/TN1H1KD7U-UNG69V5PZ-36bfd6553bb3-512" alt="Dakshal">
+                <h4>Dakshal Panicker</h3>
+            </div>
+            <div class = "board b2">
+                <h2>Co-President</h2>
+                <img src="https://ca.slack-edge.com/TN1H1KD7U-UN2NZLWJW-52525bb5d2ff-512" alt="Varun">
+                <h4>Varun Chari</h3>
+            </div>
+            <div class = "board b3">
+                <h2>Treasurer</h2>
+                <img src="https://ca.slack-edge.com/TN1H1KD7U-UNLNMHSTS-g4e795184be1-512" alt="Shrey">
+                <h4>Shrey Jain</h4>
+            </div>
+            <div class = "board b4">
+                <h2>Web Master</h2>
+                <img src="https://ca.slack-edge.com/TN1H1KD7U-UNFFZFYRE-0fe6a0a9ed23-512" alt="Shakib">
+                <h4>Shakib Rahman</h4>
+            </div>
+            <div class = "board b5">
+                <h2>Secretary</h2>
+                <img src="https://ca.slack-edge.com/TN1H1KD7U-UN947NJ01-1373f1f87807-512" alt="Cavin">
+                <h4>Cavin Saravanan</h4>
+            </div>
+        </section>
+        <section class = "section s5 fp-auto-height-responsive">
+            <h1>Contact</h1>
+            <div id="cContainer">
+                <div id="left">
+                    <form target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSe3_B5ySYh_X9ihcciBA6JWo8e1WBMSBEhZQXyBy_LTcnapFw/formResponse" target="_self" method="POST">
+                        <h2 class = "cSubT">Message Us!</h2>
+                        <div class="row">
+                            <input required placeholder = "Name"id="name" class="input" name="entry.1997664703" type="text" value="" size="30"/><br/>
+                            <span id="name_validation" class="error_message"></span>
+                        </div>
+                        <div class="row">
+                            <input required id="ID" placeholder = "ID" class="input" name="entry.262819144" type="text" value="" size="30"/><br/>
+                            <span id="email_validation" class="error_message"></span>
+                        </div>
+                        <div class="row">
+                            <textarea name ="entry.285383748" required class = "input" id="message" placeholder = "Message" class="message" name=" rows="7" cols="30"></textarea><br/>
+                            <span id="message_validation" class="error_message"></span>
+                        </div>
+                        <input id="submit_button" type="submit" value="Submit"/>
+                    </form>
+                </div>
+                <div id="right">
+                    <div id="rBod">
+                        <h2 class = "cSubT">Other Resources</h2>
+                        <h3>Mrs. Dhrolia: idhrolia@nbtschools.org</h3>
+                        <h3>Slack: <a href="https://join.slack.com/t/nbthstechclub/shared_invite/enQtODEyNDkxMjY4NjE1LWU2OGIxZTIzZTZmNDM2NzEyNjI1Y2JiYzA2MWVmNTZmNTNhNWE4OGQyOTk2MzEyNmY4MTY4NWQwM2E3MDgzYjM">Click Here</a></h3>
+                        <h3>Remind: Text @technbths to 81010</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+    <script src = "fullpage.min.js"></script>
+    <script src = "app.js"> </script>
+</body>
+</html>
