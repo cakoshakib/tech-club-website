@@ -202,6 +202,12 @@ p {
     transform:translate(-50%,-20%);
     background-color:rgba(255, 255, 255, 0.1);
     border-radius:50px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 #left h2,#right h2 {
     font-size:2.3em;
@@ -210,6 +216,11 @@ p {
     float:left;
     width:50%;
     text-align:center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 
 }
 #right {
@@ -217,22 +228,14 @@ p {
     width:50%;
     text-align:center;
     border-left:solid;
-
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
 }
 
-form,#rBod {
-    padding-top:5%;
-    width:55%;
-
-    margin-left:50%;
-    margin-top:50%;
-    transform:translate(-50%,-50%);
-}
-
-#rBod {
-    margin-top:42%; 
-    width:100%;
-}
 #rBod h3 {
     font-size:1.2em;
     text-align:left;    
@@ -240,10 +243,12 @@ form,#rBod {
     padding-bottom:10%;
 }
 
-form h2, #rBod h2 {
+ #rBod h2 {
     padding-bottom:10%;
 }
-
+form h2, .row {
+    padding-bottom:5%;
+}
 
 a {
     color:white;
@@ -264,9 +269,6 @@ a {
     height:100px;
 }
 
-.row {
-    padding-bottom:10%;
-}
 
 #submit_button {
     margin:15px;
