@@ -1,5 +1,6 @@
 
 new fullpage('#fullpage', {
+    licenseKey: 'FbtCzKU#m6',
     autoScrolling: true,
     navigation: true,
     navigationTooltips: ['Home', 'Meets','About','Board','Contact'],
