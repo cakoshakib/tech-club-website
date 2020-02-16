@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 * {
     margin: 0;
@@ -284,6 +285,130 @@ a {
     padding-left:5%;
     padding-right:5%;
 }
+
+#hFullPage .s1 {
+    background-color: #0e3148;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%233e3622' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23929a00'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    
+}
+
+#hFullPage h1 {
+    top:50%;
+    padding-bottom:10px;
+    border-bottom:1px;
+    font-size:100px; 
+}
+#hFullPage h3{
+    position:absolute;
+    font-size:40px;
+    top:65%;
+    left:50%;
+    transform:translate(-50%,-60%);
+    text-shadow: -5px 3px 2px #333333;
+
+}
+
+#hFullPage .left {
+    width:50%;
+    height:100%;
+    position:absolute;
+}
+#hackIco {
+    position:absolute;
+    transform:translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    width: 50%;
+}
+#hFullPage .right {
+    width:50%;
+    height:100%;
+    margin-left:45%;
+    display:inline-block;
+}
+#hFullPage #subtitle{
+    font-size:50px;
+    text-align:center;
+    margin-top:25%;
+}
+#hFullPage #hackNBDescription {
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    padding-top:10%;
+    padding-right:2%;
+    padding-left:2%;
+    font-size:25px;
+    line-height:38px;
+}
+
+
+.pageTitle{
+    position:absolute;
+    font-size:50px;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#hFullPage .s3 ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 10%;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10%;
+    column-count: 2;
+    column-gap: 20%;
+    list-style-type:none;
+    position:absolute;
+    transform:translate(-50%,-40%);
+    left:50%;
+    width:70%;
+}
+
+#hFullPage .s3 li {
+    font-family: 'Open Sans', sans-serif;
+    margin:0 0 30px 0;   
+    
+    font-size:35px;
+}
+.sponsors {
+    border-color:#4644441a;
+    border-style:solid;
+
+}
+#sponsor1 {
+    position:absolute;
+    top:25%;
+    left:15%;
+    transform:translate(-15%,-25%);
+    width:12%;
+    border-radius:100%;
+}
+
+#sponsor2 {
+    position:absolute;
+
+    top:28%;
+    left:50%;
+    width:20%;
+    transform:translate(-50%,-25%);
+}
+
+#hFullPage .s5 ol .questions{
+    font-size:30px;
+    margin-left:5%;
+    margin-bottom:1%;
+    font-weight:bold;
+}
+#hFullPage .s5 ol .questions:first-child{
+    margin-top:5%;
+}
+#hFullPage .s5 ol .answers {
+    font-family: 'Open Sans', sans-serif;
+
+    margin-left:5%;
+    margin-bottom:2%;
+    font-size:22px;
+}
+
 @media only screen and (max-width: 600px) {
     .s2 #nextMeet {
         width:90%;
@@ -343,5 +468,60 @@ a {
  
     #left {
         display:none;
+    }
+    #hFullPage h1{
+        font-size:50px;
+    }
+    #hFullPage h3 {
+        font-size:20px;
+    }
+    #hFullPage .s2 .left {
+        display:none;
+    }
+    #hFullPage .s2 .right {
+        width:100%;
+        margin-left:0;
+    }
+    #hFullPage .pageTitle,#hFullPage #subtitle {
+        font-size:30px;
+    }
+    #hFullPage #hackNBDescription {
+        font-size:20px;
+        line-height:30px;
+    }
+    #hFullPage .s3 ul {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        list-style-type:none;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        left:50%;
+        width:70%;
+    }
+    
+    #hFullPage .s3 li {
+        font-family: 'Open Sans', sans-serif;
+        margin:0 0 10px 0;   
+        
+        font-size:20px;
+    }
+    #hFullPage .s5 ol .questions{
+        font-size:22px;
+        margin-left:5%;
+        margin-bottom:1%;
+        font-weight:bold;
+        
+    }
+    #hFullPage .s5 ol .questions:first-child{
+        margin-top:5%;
+    }
+    #hFullPage .s5 ol .answers {
+        font-family: 'Open Sans', sans-serif;
+    
+        margin-left:5%;
+        margin-bottom:3%;
+        font-size:15px;
+        list-style-type:none;
     }
 }

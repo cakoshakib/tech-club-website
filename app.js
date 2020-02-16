@@ -8,3 +8,13 @@ new fullpage('#fullpage', {
     easing: 'easeInOutCubic',
     fadingEffect:true,
 });
+
+new fullpage('#hFullPage', {
+    licenseKey: 'FbtCzKU#m6',
+    autoScrolling: true,
+    navigation: true,
+
+    easingcss3: 'ease',
+    easing: 'easeInOutCubic',
+    fadingEffect:true,
+});
