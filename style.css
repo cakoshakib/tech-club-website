@@ -381,27 +381,23 @@ a {
     
     font-size:35px;
 }
-.sponsors {
-    border-color:#4644441a;
-    border-style:solid;
 
+.sponsor-div {
+    height: 75vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.sponsors {
+    margin: 2vw;
+    padding: 2px;
 }
 #sponsor1 {
-    position:absolute;
-    top:25%;
-    left:15%;
-    transform:translate(-15%,-25%);
-    width:12%;
+    height: 100px;
     border-radius:100%;
 }
-
 #sponsor2 {
-    position:absolute;
-
-    top:28%;
-    left:50%;
-    width:20%;
-    transform:translate(-50%,-25%);
+    height: 95px;
 }
 
 #hFullPage .s5 ol .questions{
