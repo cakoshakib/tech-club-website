@@ -367,6 +367,18 @@ a {
     left:50%;
     transform:translate(-50%,-50%);
 }
+.scroll-prompt {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    height: 40px;
+}
+.scroll-prompt p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
 #hFullPage .s3 ul {
     -moz-column-count: 2;
     -moz-column-gap: 10%;
@@ -539,3 +551,35 @@ a {
         list-style-type:none;
     }
 }
+
+/* Scroll Prompt Animation*/
+
+.slide-up {
+	-webkit-animation: slide-in-bottom 2s ease-out 1s 4 alternate both;
+	        animation: slide-in-bottom 2s ease-out 1s 4 alternate both;
+}
+
+@-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+@keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
