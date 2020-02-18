@@ -139,6 +139,18 @@ p {
 
 }
 
+.typeform {
+    padding: 20px 60px;
+}
+.typeform-widget {
+    box-shadow: 0px 0px 10px 0px #d1d1d1;
+}
+.s6 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #b1b8c5;
+}
+
 .board {
     background:black;
     width:13%;
