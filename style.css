@@ -410,18 +410,16 @@ a {
     height: 75vh;
     padding: 40px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .sponsors {
-    margin: 2vw;
+    margin: 0 3vw;
     padding: 2px;
+    height: 100px;
 }
 #sponsor1 {
-    height: 100px;
     border-radius:100%;
-}
-#sponsor2 {
-    height: 95px;
 }
 
 #hFullPage .s5 ol .questions{
