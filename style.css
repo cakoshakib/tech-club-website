@@ -140,9 +140,15 @@ p {
 }
 
 /* popup typeform button */
-.s2 .typeform {
-    text-align: center;
-    padding-top: 20px;
+.s1 .typeform {
+        display: block;
+        position: absolute;
+        bottom: 20%;
+        width: 100%;
+        height: 40px;
+}
+.typeform-share {
+    box-shadow: 0 0 7px white;
 }
 /* last page typeform */
 .s6 .typeform {
