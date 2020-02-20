@@ -561,8 +561,8 @@ a {
 /* Scroll Prompt Animation*/
 
 .slide-up {
-	-webkit-animation: slide-in-bottom 2s ease-out 1s 4 alternate both;
-	        animation: slide-in-bottom 2s ease-out 1s 4 alternate both;
+	-webkit-animation: slide-in-bottom 2s ease-out 1s 6 alternate both;
+	        animation: slide-in-bottom 2s ease-out 1s 6 alternate both;
 }
 
 @-webkit-keyframes slide-in-bottom {
