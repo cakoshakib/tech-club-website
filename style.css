@@ -444,6 +444,7 @@ a {
     margin: auto; 
     margin-top: 40px;
     padding: 10px; 
+    border-radius: 20px;
     box-shadow: 0 0 10px lightgray
 }
 .countdown h2 {
