@@ -439,6 +439,26 @@ a {
     font-size:22px;
 }
 
+.countdown {
+    width: 500px; 
+    margin: auto; 
+    margin-top: 40px;
+    padding: 10px; 
+    box-shadow: 0 0 10px lightgray
+}
+.countdown h2 {
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.countdown iframe {
+    display: block; 
+    margin: auto;
+}
+
 @media only screen and (max-width: 600px) {
     .s2 #nextMeet {
         width:90%;
