@@ -357,10 +357,10 @@ a {
 }
 #hFullPage #hackNBDescription {
     font-family: 'Open Sans', sans-serif;
-    text-align:center;
+    text-align: justify;
     padding-top:10%;
-    padding-right:2%;
-    padding-left:2%;
+    padding-right:5%;
+    padding-left:5%;
     font-size:25px;
     line-height:38px;
 }
@@ -573,6 +573,10 @@ a {
         margin-bottom:3%;
         font-size:15px;
         list-style-type:none;
+    }
+    
+    .countdown {
+        width: 100vw;
     }
 }
 
