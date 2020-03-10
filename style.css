@@ -357,10 +357,10 @@ a {
 }
 #hFullPage #hackNBDescription {
     font-family: 'Open Sans', sans-serif;
-    text-align:center;
+    text-align: justify;
     padding-top:10%;
-    padding-right:2%;
-    padding-left:2%;
+    padding-right:5%;
+    padding-left:5%;
     font-size:25px;
     line-height:38px;
 }
@@ -437,6 +437,27 @@ a {
     margin-left:5%;
     margin-bottom:2%;
     font-size:22px;
+}
+
+.countdown {
+    width: 500px; 
+    margin: auto; 
+    margin-top: 40px;
+    padding: 10px; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px lightgray
+}
+.countdown h2 {
+    text-align: center;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.countdown iframe {
+    display: block; 
+    margin: auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -553,6 +574,10 @@ a {
         margin-bottom:3%;
         font-size:15px;
         list-style-type:none;
+    }
+    
+    .countdown {
+        width: 85vw;
     }
 }
 
